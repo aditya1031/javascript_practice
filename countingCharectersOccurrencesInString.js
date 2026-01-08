@@ -20,4 +20,37 @@ function countChar(str) {
 }
 
 
-countChar("Aditya kumar");
+function countChar2(str) {
+     if (typeof str !== "string") {
+          throw new Error(`invalid entry`);
+     }
+
+     str = str.toLocaleLowerCase();
+
+     const result={};
+     for (let i = 0; i < str.length; i++) {
+          
+          if (!result[str[i]]) {
+               result[str[i]]=0;
+          }
+          result[str[i]]++;
+     }
+   
+console.log(`the charter accrued `,result);
+
+}
+
+
+function countChar(str) {
+     if (typeof str !== "string") {
+          throw new Error(`invalid entry`);
+     }
+
+     str = str.toLocaleLowerCase();
+
+
+}
+
+
+
+countChar2("Aditya kumar");
