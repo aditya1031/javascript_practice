@@ -26,3 +26,5 @@ function findElement (arr,fun){
   }
   return undefined;
 }
+findElement([1, 3, 5, 8], num => num % 2 === 0); // 8
+findElement([1, 3, 5], num => num % 2 === 0);   // undefined
