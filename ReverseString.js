@@ -30,4 +30,4 @@ function reversString2(str)
 // let str=reversString("aditya");
 // let str=reversString(12);
 // console.log(str);
-console.log(reversString2("aditya"))
+console.log(reversString2("aditya kumar"))
